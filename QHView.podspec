@@ -7,7 +7,7 @@ s.description  = <<-DESC
 * Markdown 格式
 DESC
 
-s.homepage     = "http://aoto.io/"
+s.homepage     = "https://github.com/sunqinghua"
 # s.screenshots  = "www.example.com/screenshots_1.gif"
 s.license      = "MIT"                #开源协议
 s.author             = { "qh" => "453433112@qq.com" }
