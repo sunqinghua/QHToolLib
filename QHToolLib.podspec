@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name         = "QHToolLib"                #名称
-s.version      = "0.0.2"                #版本号
-s.summary      = "Just testing"        #简短介绍
+s.version      = "0.0.4"                #版本号
+s.summary      = "获取设备属性ip、mac、wifi、网络、电池等状态"        #简短介绍
 s.description  = <<-DESC
 私有Pods测试
 * Markdown 格式
@@ -17,10 +17,10 @@ s.source       = { :git => "https://github.com/sunqinghua/QHToolLib.git" }
 ## 待测试通过完成后我们再发布指定release版本，使用如下方式
 s.source       = { :git => "https://github.com/sunqinghua/QHToolLib.git", :tag => s.version }
 
-s.platform     = :ios, "6.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
+s.platform     = :ios, "7.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
 s.requires_arc = true                    #是否使用ARC
 
-s.source_files  = "QHView/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+s.source_files  = "Classes/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
 
 s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
 s.module_name = 'QHToolLib'                #模块名称
