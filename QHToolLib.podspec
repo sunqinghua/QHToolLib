@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "QHToolLib"                #名称
-s.version      = "0.0.4"                #版本号
+s.version      = "0.0.5"                #版本号
 s.summary      = "获取设备属性ip、mac、wifi、网络、电池等状态"        #简短介绍
 s.description  = <<-DESC
 私有Pods测试
