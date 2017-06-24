@@ -15,4 +15,9 @@
     
 }
 
++ (void)newGet:(NSString *)url params:(NSDictionary *)params success:(void (^)(id responseObject))success failure:(void (^)(NSError *error))failure
+{
+    
+}
+
 @end
